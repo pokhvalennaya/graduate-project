@@ -1,0 +1,26 @@
+{
+  "name": "graduate-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokhvalennaya/graduate-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pokhvalennaya/graduate-project/issues"
+  },
+  "homepage": "https://github.com/pokhvalennaya/graduate-project#readme",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
